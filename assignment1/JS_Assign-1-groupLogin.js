@@ -15,7 +15,7 @@ if (teamNumber !== null && teamNumber === correctTeamNumber) {
   console.log(capUsername);
 
   // validating the username input to make sure user didn't leave an empty field or null value
-  if (username !== null || username === "") {
+  if (username !== null || username !== "") {
     // Validating to see if the name the user gave matches the names in our existing list, if it does we return a popup with their full name
     switch (capUsername) {
       case "Emmanuel":
@@ -67,5 +67,17 @@ PROFESSIONAL PRACTICE SELF-REFLECTION QUESTIONS
 
 5. What other resources (besides class notes) did you use for assistance during this assignment?
     "I went back to the files i created while learning javascript for the first time some years back."
+
+*/
+
+
+/* 
+
+if(inputTeam === ourteam){
+prompt first name
+switch case
+} else{
+ 
+not on our team}
 
 */
