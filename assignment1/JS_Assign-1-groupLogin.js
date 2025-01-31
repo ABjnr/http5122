@@ -15,7 +15,7 @@ if (teamNumber !== null && teamNumber === correctTeamNumber) {
   console.log(capUsername);
 
   // validating the username input to make sure user didn't leave an empty field or null value
-  if (username !== null || username !== "") {
+  if (username !== null || username === "") {
     // Validating to see if the name the user gave matches the names in our existing list, if it does we return a popup with their full name
     switch (capUsername) {
       case "Emmanuel":
