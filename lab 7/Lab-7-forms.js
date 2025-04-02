@@ -36,7 +36,7 @@ function domReady() {
 
       thanksSpeed.textContent = deliveryText;
       thanksCost.textContent = deliveryCost;
-    }
+    } 
 
     if (formHandle.in_Name.value === "") {
       formHandle.f_Name.style.backgroundColor = "red";
@@ -62,7 +62,7 @@ function domReady() {
 
   formHandle.onsubmit = processForm;
 }
-
+/* 
 function formValidator() {
   var thanksPc = document.getElementById("thanksPC");
   var thankCustomer = document.getElementById("thanksCustomer");
@@ -75,4 +75,4 @@ function formValidator() {
   }
   console.log(formHandle.in_Name.value);
   console.log(formHandle.in_pc.value);
-}
+} */
