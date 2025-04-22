@@ -59,7 +59,7 @@ function pageReady() {
 
   // Set the event listeners for the buttons to trigger the getWeather function when clicked
   torontoButton.onclick = function () {
-    getWeather("toronto");
+    getWeather("o");
   };
   nigeriaButton.onclick = function () {
     getWeather("nigeria");
